@@ -1,0 +1,59 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+main {
+  margin-top: 150px;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.about {
+  padding: 50px;
+}
+
+.domki {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.domki .domek {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.atrakcje ul {
+  padding-left: 20px;
+}
